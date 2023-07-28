@@ -1,4 +1,4 @@
-torch
+xformers
 torchdiffeq
 torchsde
 einops
