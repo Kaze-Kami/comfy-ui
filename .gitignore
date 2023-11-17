@@ -17,7 +17,7 @@ venv/
 /tests-ui/data/object_info.json
 
 # custom ignores
-venv/
+.venv/
 ckpts/
 comfyui.log
 comfyui.prev.log
