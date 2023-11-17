@@ -5,6 +5,7 @@ input/
 !input/example.png
 models/
 temp/
+ckpts/
 custom_nodes/
 !custom_nodes/example_node.py.example
 extra_model_paths.yaml
@@ -14,3 +15,6 @@ extra_model_paths.yaml
 web/extensions/*
 !web/extensions/logging.js.example
 !web/extensions/core/
+comfyui.log
+comfyui.prev.log
+pysssss-workflows/
