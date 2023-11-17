@@ -62,8 +62,12 @@ IF "%DO_DEPS%"=="1" (
 	%PYTHON% %PIP% -r "./custom_nodes/was-node-suite-comfyui/requirements.txt"
 )
 
+SET PYTORCH_CUDA_ALLOC_CONF=garbage_collection_threshold:0.7,max_split_size_mb:512
+
 :: launch? :)
 ECHO Launching comfy ui...
-START "" /b /high %PYTHON% main.py
+%PYTHON% main.py
+
+ECHO ComfyUI returned with %errorlevel%
 
 :EXIT
