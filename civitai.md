@@ -31,3 +31,7 @@
 
 ## Upscaler
 - [4x UltraSharp](https://openmodeldb.info/models/4x-UltraSharp)
+
+
+# Reference Images
+[Toon Babes](https://civitai.com/images/4684510)
