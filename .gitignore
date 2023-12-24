@@ -20,5 +20,5 @@ venv/
 .venv/
 ckpts/
 comfyui.log
-comfyui.prev.log
+comfyui.prev*.log
 pysssss-workflows/
