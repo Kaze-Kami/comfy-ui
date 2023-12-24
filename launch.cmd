@@ -11,7 +11,7 @@ SET VENV=.venv
 SET VENV_ARGS=--upgrade-deps
 
 :: global python interpreter
-SET PYTHON=py
+SET PYTHON="C:\Program Files\Python\Python310\Python.exe"
 
 :: pip config
 :: as passed to python interpreter (e.g. with -m)
