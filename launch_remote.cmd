@@ -67,7 +67,7 @@ SET PYTORCH_CUDA_ALLOC_CONF=garbage_collection_threshold:0.7,max_split_size_mb:5
 
 :: launch? :)
 ECHO Launching comfy ui...
-%PYTHON% main.py
+%PYTHON% main.py --listen --port 9999
 
 ECHO ComfyUI returned with %errorlevel%
 
